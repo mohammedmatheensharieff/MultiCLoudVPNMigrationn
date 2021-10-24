@@ -7,10 +7,8 @@ variable "aws_region" {
 <<<<<<< HEAD
   description = "Default to Oregon region."
   default     = "us-east-1"
-=======
   description = "Default to Northern California region."
   default     = "us-west-1"
->>>>>>> 01e5c6de7bfe2f767e8fdd3a3606330e14d2915c
 }
 
 variable "aws_instance_type" {
