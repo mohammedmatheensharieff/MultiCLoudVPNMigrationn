@@ -16,11 +16,8 @@ variable "gcp_region" {
 
 variable "gcp_instance_type" {
   description = "Machine Type. Correlates to an network egress cap."
-<<<<<<< HEAD
   default     = "n1-standard-1"
-=======
   default     = "n1-highmem-4"
->>>>>>> 01e5c6de7bfe2f767e8fdd3a3606330e14d2915c
 }
 
 variable "gcp_disk_image" {
