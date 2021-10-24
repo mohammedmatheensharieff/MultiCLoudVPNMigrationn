@@ -6,8 +6,6 @@ variable "aws_credentials_file_path" {
 variable "aws_region" {
   description = "Default to Oregon region."
   default     = "us-east-1"
-  description = "Default to Northern California region."
-  default     = "us-west-1"
 }
 
 variable "aws_instance_type" {
